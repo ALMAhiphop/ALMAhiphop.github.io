@@ -1,0 +1,301 @@
+/*font-family: 'Passion One', cursive;
+font-family: 'Candal', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Slabo 27px', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Economica', sans-serif;
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*FIN DEL RESET*/
+
+#contenidos{
+	width: 1600px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+	
+/*Etiquetas*/
+
+body{
+	background-image: url(../img/fondo2.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+h1{font-family: 'Slabo 27px', serif;
+background: -moz-radial-gradient(bottom,gray,black);
+background: -webkit-linear-gradient(bottom,gray,blue);
+font-size: 25px;
+text-align: center;
+border-radius:10px;
+color: white;
+margin: 15px auto;
+padding: 5px;
+border: 3px solid rgba(50,0,50,0.4);
+border-radius: 0px 0px 5px 5px;
+box-shadow: rgba(0,0,100,0.6) 0px 4px 0px ;
+}
+
+h2{font-family: 'Candal', sans-serif;
+margin-left: 40px;
+margin-top: 340px;
+font-size: 30px;
+text-align: left;
+border-radius:50px;
+color: black;
+}
+
+h3{
+	font-family: 'Candal', sans-serif;
+	margin-top: 50px;
+	font-size: 50px;
+	text-align: center;
+	color: black;
+}
+
+h4{font-family: 'Slabo 27px', serif;
+margin-left: 10px;
+margin-top: 10px;
+font-size: 30px;
+text-align: left;
+border-radius:10px;
+color: black;
+}
+
+h5{font-family: 'Slabo 27px', serif;
+margin-left: 10px;
+margin-top: 10px;
+font-size: 30px;
+text-align: left;
+border-radius:10px;
+color: black;
+}
+
+header{
+	margin-top: 30px;
+	width: 1600px;
+	height: 450px;
+	border-radius:10px;
+	background: url(../img/Encabezado.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+nav{
+	width: 1600px;
+	height: 150px;
+	background: #89C4E8;
+	border-radius:10px;
+	text-align: center;
+	
+}
+
+ul{
+	margin: auto;
+	padding-top: 5px;
+
+}
+
+li{ font-family: 'Lobster', cursive;
+    font-size:30px;
+	float: left;
+	list-style-type: none;
+	padding-top:15px;
+	padding-right: 10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	background: rgba(120,120,80,0.2);
+	outline-color: black;
+	outline-style: solid;
+	outline-width: 1px;
+	margin: 10px;
+	box-shadow: 0 0 1px blue inset;
+}
+
+
+section{
+	width: 1100px;
+	height: auto;
+	margin-top: 50px;
+	float: left;
+	background: gray;
+	border-radius:10px;
+}
+
+section2{
+	width: 1100px;
+	height: auto;
+	margin-top: 50px;
+	float: left;
+	background: gray;
+	border-radius:10px;
+	border-top: 1px gray;
+}
+
+aside{
+	width: 450px;
+	height: auto;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background: rgba(120,120,80,0.2);
+	border-radius:10px;
+}
+
+aside2{
+	width: 450px;
+	height: 600px;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background: rgba(12,120,80,0.2);
+	border-radius:10px;
+}
+
+footer{
+	width: 1280px;
+	height: 50px;
+	margin-top:50px;;
+	margin-bottom: 50px;
+	background: gray;
+	float: left;
+	border-radius:10px;
+}
+
+p{
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 20px;
+	padding: 10px; 
+	text-align: justify;
+}
+
+p2{font-family: 'Economica', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	padding: 10px;
+	font-style:normal;
+	text-align:justify;
+}
+
+<!--imagenes que se agrandan style 3-->
+p3{float: left;
+	font-size: 6px;
+	line-height: 20px;
+	padding:10px;
+	margin-left:40px;
+}
+
+p4{
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 20px;
+	padding: 10px; 
+	text-align: center;
+}
+
+span{float: center;}
+
+figure{float: left;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:30px;
+padding-right:30px;
+
+}
+
+figure img{padding: 4px;
+	background-color:black;
+	border-radius: 15px;}
+
+figure img:hover/*Establecer propiedades para el estado hover, de las img que pertenecen solamente a figure*/
+{
+-moz-transform:scale(1.1);
+-moz-transition:-moz-transform 0.3s ease-in-out 0.1s; 
+-webkit-transform:scale(1.1);
+-webkit-transition:-moz-transform 0.3s ease 0.1s; 
+}
+
+figcaption{
+	font-family: 'Candal', sans-serif;
+	font-size: auto;
+	text-align: center;
+	margin-top: 5px;
+
+}
+
+/*Selector de etiquetas*/
+#barralateral {
+	background-color: #F7D358;
+	float: left;
+	height: 600px;
+
+}
+
+#cuadrostexto1 {
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: gray;
+	box-shadow: 0 0 1px blue inset;
+
+}
+
+
+
+/*Clases*/
+
+.ancho_menu_home{width: 800px;}
+.ancho_menu_paginas{width: 870px}
+
+.menu:link{padding color: white; text-decoration: none;}
+.menu:visited{padding color: black; text-decoration: none;}
+.menu:hover{color: black; text-decoration: none;}
+.menu:active{padding:color: #5EBBF5; text-decoration: none;}
+
+/*Seudo Clases*/
+
+li:hover{
+	background: #246D9A;
+	text-shadow: 0 0 5px black inset;}
+
+.menu:hover{text-shadow: 0 0 15px #5EBBF5 inset;}
